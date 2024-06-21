@@ -3,9 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import math
 
-st.title("Mortgage Repayments Calculator")
+st.title("Welcome to Leon's free Mortgage Repayments Calculator")
 
-st.write("### Input Data")
+st.write("### Input Your Data Below")
 col1, col2 = st.columns(2)
 home_value = col1.number_input("Home Value", min_value=0, value=500000)
 deposit = col1.number_input("Deposit", min_value=0, value=100000)
